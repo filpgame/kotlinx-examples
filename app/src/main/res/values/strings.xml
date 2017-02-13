@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">kotlinx</string>
+    <string name="app_name">Kotlin Extensions Example</string>
     <string name="first_name">First Name:</string>
     <string name="last_name">Last Name:</string>
     <string name="birth_date">Birth Date:</string>
