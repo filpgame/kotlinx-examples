@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">kotlinx</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="birth_date">Birth Date:</string>
+    <string name="occupation">Occupation:</string>
+    <string name="user_picture">User Picture</string>
+</resources>
