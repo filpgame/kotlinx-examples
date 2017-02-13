@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".ui.mvp.ProfileActivity">
         </activity>
+        <activity android:name=".ui.list.UsersActivity">
+        </activity>
     </application>
 
 </manifest>
