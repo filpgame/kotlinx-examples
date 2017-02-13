@@ -15,6 +15,7 @@
         android:weightSum="2">
 
         <com.filpgame.kotlinx.widget.TitleDescView
+            android:id="@+id/firstTitleDescView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -22,6 +23,7 @@
             app:tdv_title="Title1" />
 
         <com.filpgame.kotlinx.widget.TitleDescView
+            android:id="@+id/secondTitleDescView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -30,18 +32,11 @@
     </LinearLayout>
 
     <com.filpgame.kotlinx.widget.TitleDescView
+        android:id="@+id/thirdTitleDescView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
         app:tdv_desc="Desc3"
         app:tdv_title="Title3" />
-
-    <com.filpgame.kotlinx.widget.TitleDescView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
-        app:tdv_desc="Desc4"
-        app:tdv_title="Title4" />
 </LinearLayout>
