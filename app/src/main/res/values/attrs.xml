@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleDescView">
+        <attr name="tdv_title" format="string" />
+        <attr name="tdv_desc" format="string" />
+    </declare-styleable>
+</resources>

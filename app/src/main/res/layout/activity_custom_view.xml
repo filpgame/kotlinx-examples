@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.filpgame.kotlinx.ui.customview.CustomViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <com.filpgame.kotlinx.widget.TitleDescView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tdv_desc="Desc1"
+            app:tdv_title="Title1" />
+
+        <com.filpgame.kotlinx.widget.TitleDescView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:tdv_desc="Desc2"
+            app:tdv_title="Title2" />
+    </LinearLayout>
+
+    <com.filpgame.kotlinx.widget.TitleDescView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        app:tdv_desc="Desc3"
+        app:tdv_title="Title3" />
+
+    <com.filpgame.kotlinx.widget.TitleDescView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        app:tdv_desc="Desc4"
+        app:tdv_title="Title4" />
+</LinearLayout>
