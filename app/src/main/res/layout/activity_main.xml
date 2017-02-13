@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context="com.filpgame.kotlinx.ui.MainActivity">
 
     <Button
@@ -27,4 +28,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="List" />
+
+    <Button
+        android:id="@+id/customViewButton"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom View" />
+
+    <Button
+        android:id="@+id/fragmentButton"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment" />
 </LinearLayout>

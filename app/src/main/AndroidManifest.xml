@@ -12,12 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.simple.SimpleActivity">
+
+        <activity
+            android:name=".ui.simple.SimpleActivity"
+            android:label="Simple Example">
         </activity>
-        <activity android:name=".ui.mvp.ProfileActivity">
+
+        <activity
+            android:name=".ui.mvp.ProfileActivity"
+            android:label="MVP Example">
         </activity>
-        <activity android:name=".ui.list.UsersActivity">
+
+        <activity
+            android:name=".ui.list.UsersActivity"
+            android:label="List Example">
         </activity>
+
         <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +35,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.customview.CustomViewActivity">
+
+        <activity
+            android:name=".ui.customview.CustomViewActivity"
+            android:label="Custom View Example">
+        </activity>
+
+        <activity
+            android:name=".ui.fragment.TestActivity"
+            android:label="Fragment Example">
         </activity>
     </application>
 

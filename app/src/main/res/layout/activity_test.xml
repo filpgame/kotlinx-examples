@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.filpgame.kotlinx.ui.fragment.TestActivity">
+
+    <fragment
+        android:id="@+id/fragment_container"
+        android:name="com.filpgame.kotlinx.ui.fragment.TestFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_test" />
+
+</FrameLayout>
