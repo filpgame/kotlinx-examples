@@ -1,6 +1,5 @@
 package com.filpgame.kotlinx.ui.mvp
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.ImageView
@@ -11,6 +10,8 @@ import kotlinx.android.synthetic.main.activity_profile.firstNameTextView as firs
 import kotlinx.android.synthetic.main.activity_profile.pictureImageView as pictureImageViewProfile
 
 class ProfileActivity : AppCompatActivity(), ProfileView {
+    val presenter = ProfilePresenter(this)
+
     override val profileImageView: ImageView
         get() = pictureImageViewProfile
 
@@ -26,13 +27,9 @@ class ProfileActivity : AppCompatActivity(), ProfileView {
     override val occupationTextView: TextView
         get() = occupation_textview
 
-    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
-        firstNameTextView.text = "Felipe"
-        lastNameTextView.text = "Rodrigues"
-        birthDateTextView.text = "12/12/1993"
-        occupationTextView.text = "Developer"
+        presenter.initView()
     }
 }
