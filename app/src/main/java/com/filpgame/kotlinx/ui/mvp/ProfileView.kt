@@ -8,7 +8,7 @@ import android.widget.TextView
  * @since 12/02/2017
  */
 interface ProfileView {
-    val profileImageView: ImageView
+    val pictureImageView: ImageView
     val firstNameTextView: TextView
     val lastNameTextView: TextView
     val birthDateTextView: TextView

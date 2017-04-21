@@ -12,8 +12,8 @@
         android:layout_height="92dp"
         android:layout_gravity="center"
         android:background="@color/colorAccent"
-        android:src="@android:drawable/ic_menu_camera"
-        android:contentDescription="@string/user_picture"/>
+        android:contentDescription="@string/user_picture"
+        android:src="@android:drawable/ic_menu_camera" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,7 +44,7 @@
                 android:text="@string/last_name"/>
 
             <TextView
-                android:id="@+id/last_name_textview"
+                android:id="@+id/lastNameTextView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
@@ -59,7 +59,7 @@
                 android:text="@string/birth_date"/>
 
             <TextView
-                android:id="@+id/birth_date_textview"
+                android:id="@+id/birthDateTextView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
@@ -74,7 +74,7 @@
                 android:text="@string/occupation"/>
 
             <TextView
-                android:id="@+id/occupation_textview"
+                android:id="@+id/occupationTextView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"/>
