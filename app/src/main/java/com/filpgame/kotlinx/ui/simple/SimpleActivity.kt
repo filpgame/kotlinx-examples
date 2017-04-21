@@ -1,7 +1,7 @@
 package com.filpgame.kotlinx.ui.simple
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import com.filpgame.kotlinx.R
 import kotlinx.android.synthetic.main.activity_simple.*
 
